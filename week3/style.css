@@ -1,0 +1,231 @@
+.header {
+    position: relative;
+    width: 1920px;
+    height: 5228px;
+
+    background: #FFFFFF;
+}
+
+nav {
+    font-family: Montserrat;
+}
+
+nav :hover {
+    color:rgb(68, 37, 37);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+nav :first-letter
+{
+font-family: 'Dancing Script', cursive; 
+color: chartreuse;
+font-size: larger;
+}
+
+nav :before {
+    content: '<';
+}
+nav :after {
+    content: '>';
+}
+
+#logo {
+    position: absolute;
+    width: 160px;
+    height: 87px;
+    left: 160px;
+    top: 60px;
+}
+
+.container {
+    position: absolute;
+    width: 1800px;
+    height: 865.55px;
+    left: 60px;
+    top: 60px;
+
+}
+
+.extra_menu {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 1515px;
+    top: 113px;
+
+    border: 1px solid #000000;
+}
+
+.extra_menu2 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 1515px;
+    top: 103px;
+
+    border: 1px solid #000000;
+}
+
+.extra_menu3 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 1515px;
+    top: 93px;
+
+    border: 1px solid #000000;
+}
+
+.major {
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    left: 577px;
+    top: 95px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #D1A954;
+
+    border: 1px solid rgba(209, 169, 84, 0.9);
+    box-sizing: border-box;
+}
+
+.event {
+    position: absolute;
+    width: 152px;
+    height: 16px;
+    left: 677px;
+    top: 95px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #D1A954;
+}
+
+.parties {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    left: 859px;
+    top: 95px;
+
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.tourist {
+    position: absolute;
+    width: 79px;
+    height: 16px;
+    left: 1005px;
+    top: 95px;
+
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.catering {
+    position: absolute;
+    width: 87px;
+    height: 16px;
+    left: 1114px;
+    top: 95px;
+
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.agency {
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 1231px;
+    top: 95px;
+
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.main_photo1 {
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 60px;
+    top: 207px;
+
+    background: url(img/main_photo1.png);
+}
+
+.main_photo2 {
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 670px;
+    top: 207px;
+
+    background: url(img/main_photo2.png);
+}
+
+.main_photo3 {
+    position: absolute;
+    width: 580px;
+    height: 650px;
+    left: 1280px;
+    top: 207px;
+
+    background: url(img/main_photo3.png)
+}
